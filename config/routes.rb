@@ -1,6 +1,4 @@
 TodoApp::Application.routes.draw do
-
-  root :to => 'todos#index'
   
   get "todos/index"
 
